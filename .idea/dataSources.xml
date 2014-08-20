@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="414642109">
+    <data-source source="LOCAL" name="Rails ankaa-gate: development" uuid="4272cfe4-5ae2-48e1-a6cb-d8f9cb1573c1">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ankaa-gate_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ankaa-gate: test" uuid="3fe5e518-b86f-4a78-a9b6-4b4082209540">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ankaa-gate_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ankaa-gate: production" uuid="738d7c28-607d-408f-a748-50d10d36506d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ankaa-gate_production</jdbc-url>
+      <user-name>ankaa-gate</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfebdfe4dfe1dfebdfebdf87dfeddfebdffedfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ankaa-gate: default" uuid="998802ca-dc9d-4dd0-8c1e-2116255972a8">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/statisticdb</jdbc-url>
+      <user-name>statistic</user-name>
+      <user-password>dfe1dfc6dfc5dfdadfc3dfc1df9bdf9d</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ankaa-gate: statistic_development" uuid="45af8bad-c5f8-444c-a519-6ed8c20e0960">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/statisticdb</jdbc-url>
+      <user-name>statistic</user-name>
+      <user-password>dfe1dfc6dfc5dfdadfc3dfc1df9bdf9d</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ankaa-gate: statistic_test" uuid="030c472a-b843-48ac-bb39-5712e35d4ada">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/ankaa-statistic_test</jdbc-url>
+      <user-name>statistic</user-name>
+      <user-password>dfe1dfc6dfc5dfdadfc3dfc1df9bdf9d</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ankaa-gate: statistic_production" uuid="754fbfd9-4459-4c24-96a3-47ed67821d53">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/ankaa-statistic_production</jdbc-url>
+      <user-name>ankaa-statistic</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfebdfe4dfe1dfebdfebdf87dff9dffedfebdffedfe3dff9dffedfe3dfe9dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

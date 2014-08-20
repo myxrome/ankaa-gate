@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails ankaa-gate: development" uuid="4272cfe4-5ae2-48e1-a6cb-d8f9cb1573c1">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ankaa-gate: test" uuid="3fe5e518-b86f-4a78-a9b6-4b4082209540">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ankaa-gate: production" uuid="738d7c28-607d-408f-a748-50d10d36506d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ankaa-gate: default" uuid="998802ca-dc9d-4dd0-8c1e-2116255972a8">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ankaa-gate: statistic_development" uuid="45af8bad-c5f8-444c-a519-6ed8c20e0960">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ankaa-gate: statistic_test" uuid="030c472a-b843-48ac-bb39-5712e35d4ada">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ankaa-gate: statistic_production" uuid="754fbfd9-4459-4c24-96a3-47ed67821d53">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
