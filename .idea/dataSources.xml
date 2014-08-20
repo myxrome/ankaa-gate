@@ -4,7 +4,9 @@
     <data-source source="LOCAL" name="Rails ankaa-gate: development" uuid="4272cfe4-5ae2-48e1-a6cb-d8f9cb1573c1">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:ankaa-gate_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/statisticdb</jdbc-url>
+      <user-name>statistic</user-name>
+      <user-password>dfe1dfc6dfc5dfdadfc3dfc1df9bdf9d</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails ankaa-gate: test" uuid="3fe5e518-b86f-4a78-a9b6-4b4082209540">
