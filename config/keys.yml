@@ -1,0 +1,14 @@
+u: udid
+s: sessions_attributes
+sessions_attributes:
+  sa: started_at
+  fa: finished_at
+  f: facts_attributes
+  facts_attributes:
+    e: event_id
+    ci: context_id
+    ct: context_type
+    fd: fact_details_attributes
+    fact_details_attributes:
+      o: order
+      ht: happened_at
