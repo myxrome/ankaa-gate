@@ -1,14 +1,15 @@
 class FactsController < ActionController::Base
 
   def upload
+    result = ''
     begin
       mapping = YAML.load_file "#{Rails.root}/config/keys.yml"
       data = remap params[:data], mapping
       update_data data
-    rescue Exception => e
-      render json: {error: e.message}
+    rescue Exception
+      result = {error: 'Error while uploading new data'}
     end
-    render json: ''
+    render json: result
   end
 
 private
