@@ -33,7 +33,9 @@ private
   end
 
   def event_id(val)
-    Event.find_by(tag: val).id
+    Event.find_or_create_by!(tag: val) { |event|
+      event.event_type = EventType.unknown
+    }.id
   end
 
   def remap(source, mapping)
