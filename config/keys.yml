@@ -12,3 +12,4 @@ sessions_attributes:
     fact_details_attributes:
       o: order
       ht: happened_at
+      e: external_data
