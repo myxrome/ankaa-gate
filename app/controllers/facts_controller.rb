@@ -7,7 +7,7 @@ class FactsController < ActionController::Base
       data = remap params[:data], mapping
       update_data data
     rescue Exception => e
-      result = {error: 'Error while uploading new data'}
+      result = {error: 'Error while uploading new data', message: e.message}
     end
     render json: result
   end

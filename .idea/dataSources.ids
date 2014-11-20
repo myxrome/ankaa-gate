@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
   <data-source source="LOCAL" name="Rails ankaa-gate: development" uuid="4272cfe4-5ae2-48e1-a6cb-d8f9cb1573c1">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+    <database-info product="PostgreSQL" version="9.3.5" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.3 JDBC4 (build 1100)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
   </data-source>
   <data-source source="LOCAL" name="Rails ankaa-gate: test" uuid="3fe5e518-b86f-4a78-a9b6-4b4082209540">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
