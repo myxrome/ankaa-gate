@@ -3,7 +3,8 @@ class FactsController < ActionController::Base
 
   def upload
     mapping = YAML.load_file "#{Rails.root}/config/mapping/statistic_keys.yml"
-    render json: perform(params[:data], mapping)
+    status = perform(params[:data], mapping) ? 200 : 500
+    render nothing: true, status: status
   end
 
 private

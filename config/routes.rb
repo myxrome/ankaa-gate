@@ -57,5 +57,6 @@ Rails.application.routes.draw do
 
   post 's' => 'facts#upload'
   post 'c' => 'crash_reports#upload'
+  post 'm' => 'external_messages#upload'
 
 end

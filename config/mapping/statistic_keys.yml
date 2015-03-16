@@ -13,8 +13,8 @@ sessions_attributes:
     e: event_id
     ci: context_id
     ct: context_type
+    ec: external_context
     fd: fact_details_attributes
     fact_details_attributes:
       o: order
       ht: happened_at
-      e: external_data

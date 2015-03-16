@@ -1,14 +1,13 @@
 module DeviceDataUploader extend ActiveSupport::Concern
 
   def perform(source, mapping)
-    result = ''
     begin
       data = remap source, mapping
       update_data data
-    rescue Exception => e
-      result = {error: 'Error while uploading new data', message: e.message}
+    rescue => e
+      return false
     end
-    result
+    true
   end
 
   def update_data(data)
