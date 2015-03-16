@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.1'
 gem 'pg'
-gem 'ankaa-statistic', '0.9.4', git: 'git@bitbucket.org:myxrome/ankaa-statistic.git'
+gem 'ankaa-statistic', '0.9.4.1', git: 'git@bitbucket.org:myxrome/ankaa-statistic.git'
 gem 'figaro'
 
 group :development do

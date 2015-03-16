@@ -1,8 +1,8 @@
 GIT
   remote: git@bitbucket.org:myxrome/ankaa-statistic.git
-  revision: 93af6763f99fad1f03176fe5961503e3aedf54cd
+  revision: 50349e21ace844680081b720a03016e89d2e7ab9
   specs:
-    ankaa-statistic (0.9.4)
+    ankaa-statistic (0.9.4.1)
       rails (~> 4.1.1)
 
 GEM
@@ -118,7 +118,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ankaa-statistic (= 0.9.4)!
+  ankaa-statistic (= 0.9.4.1)!
   capistrano (~> 3.1)
   capistrano-bundler
   capistrano-rails (~> 1.1)

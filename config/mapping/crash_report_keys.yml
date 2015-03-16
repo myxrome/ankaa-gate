@@ -1,0 +1,14 @@
+u: udid
+b: brand
+m: model
+c: cpu
+r: release
+i: sdk
+s: crash_reports_attributes
+crash_reports_attributes:
+  n: name
+  v: version
+  e: exception
+  c: cause
+  s: stacktrace
+  h: happened_at
