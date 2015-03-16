@@ -12,7 +12,6 @@ class ExternalMessagesController < ActionController::Base
       message = ExternalMessage.create!(source: params[:type], message: params[:data].to_json)
       send(params[:type], message) if respond_to?(params[:type].to_sym, true)
     rescue => e
-      puts e.message
       return false
     end
     true
