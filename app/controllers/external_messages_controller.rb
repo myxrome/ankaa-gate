@@ -19,7 +19,7 @@ class ExternalMessagesController < ActionController::Base
 
   def gdeslon(message)
     data = JSON.parse message.message
-    event = Event.find_by(tag: 'VALUE_CONVERSION')
+    event = Event.find_by(tag: 'VALUE_CONVERSION_COUNTER')
     fact = message.build_fact(event: event, external_context: data['sub_id'])
     fact.fact_details.build(order: 1, happened_at: data['action_time'])
     fact.save!
