@@ -5,6 +5,7 @@ module DeviceDataUploader extend ActiveSupport::Concern
       data = remap source, mapping
       update_data data
     rescue => e
+      logger.error "Error: #{e.message}\n" + e.backtrace.join('\n')
       return false
     end
     true
