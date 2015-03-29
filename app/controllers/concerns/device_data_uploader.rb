@@ -32,8 +32,10 @@ module DeviceDataUploader extend ActiveSupport::Concern
   def remap(source, mapping)
     source.map {|key, val|
       k = mapping[key]
-      v = value(k, val, mapping)
-      {k.to_s => respond_to?(k.to_sym, true) ? send(k.to_sym, v) : v}
+      if k
+        v = value(k, val, mapping)
+        {k.to_s => respond_to?(k.to_sym, true) ? send(k.to_sym, v) : v}
+      end
     }.reduce(:merge)
   end
 
