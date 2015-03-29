@@ -1,7 +1,6 @@
 u: udid
 b: brand
 m: model
-c: cpu
 r: release
 i: sdk
 s: sessions_attributes
