@@ -6,6 +6,7 @@ module DeviceDataUploader extend ActiveSupport::Concern
       update_data data
     rescue => e
       logger.error "Error: #{e.message}\n" + e.backtrace.join("\n")
+      ErrorMailer.error_email(e).deliver
       return false
     end
     true

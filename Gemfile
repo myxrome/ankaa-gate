@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 gem 'pg'
 gem 'ankaa-statistic', '0.9.7', git: 'git@bitbucket.org:myxrome/ankaa-statistic.git'
+gem 'haml-rails'
 gem 'figaro'
 
 group :development do
