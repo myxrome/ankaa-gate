@@ -1,10 +1,10 @@
 class FactsController < ActionController::Base
   include DeviceDataUploader
 
-  def upload
-    mapping = YAML.load_file "#{Rails.root}/config/mapping/statistic_keys.yml"
-    status = perform(params[:data], mapping) ? 200 : 500
-    render nothing: true, status: status
+protected
+
+  def mapping_path
+    "#{Rails.root}/config/mapping/statistic_keys.yml"
   end
 
 private

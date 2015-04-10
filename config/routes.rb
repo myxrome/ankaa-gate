@@ -55,8 +55,10 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  post 's' => 'facts#upload'
-  post 'c' => 'crash_reports#upload'
+  get 's' => 'facts#get_upload'
+  post 's' => 'facts#post_upload'
+  get 'c' => 'crash_reports#get_upload'
+  post 'c' => 'crash_reports#post_upload'
   post 'm' => 'external_messages#upload'
 
 end
