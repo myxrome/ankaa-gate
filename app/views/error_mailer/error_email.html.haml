@@ -3,3 +3,4 @@
   %strong{style: 'color:red'} #{@error.message}
   %br
   %strong #{@error.backtrace.join('<br>').html_safe}
+  %p #{@source.to_s if @source}

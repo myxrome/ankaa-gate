@@ -6,9 +6,10 @@ class ErrorMailer < ActionMailer::Base
   #
   #   en.miner_mailer.result_email.subject
   #
-  def error_email(error)
+  def error_email(error, source)
     @error = error
-    mail subject: "[#{ENV['INSTALLATION_TYPE']}][Statistic Upload Error", to: 'alert@whiteboxteam.com'
+    @source = source
+    mail subject: "[#{ENV['INSTALLATION_TYPE']}][Statistic Upload Error]", to: 'alert@whiteboxteam.com'
   end
 
 end

@@ -8,7 +8,7 @@ require 'base64'
       data = JSON.parse source
     rescue => e
       logger.error "Error: #{e.message}\n" + e.backtrace.join("\n")
-      ErrorMailer.error_email(e).deliver
+      ErrorMailer.error_email(e, params).deliver
       render nothing: true, status: 500
     end
     upload data['data']
@@ -24,7 +24,7 @@ require 'base64'
       update_data data
     rescue => e
       logger.error "Error: #{e.message}\n" + e.backtrace.join("\n")
-      ErrorMailer.error_email(e).deliver
+      ErrorMailer.error_email(e, source).deliver
       return false
     end
     true
